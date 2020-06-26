@@ -180,3 +180,12 @@ arDdnsCheck() {
     return 1
 
 }
+＃导入ardnspod函数
+。/ your_real_path / ardnspod
+
+＃如下组合您的令牌ID和令牌
+arToken = “” 12345,7676f344eaeaea9074c123451234512d “
+
+＃如下放置每个要检查的域
+＃您可以有多个arDdnsCheck块
+arDdnsCheck “ test.org ”  “子域”
